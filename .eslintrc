@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends": ["airbnb", "prettier"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "max-len": ["warn", { "code": 80 }],
+    "prefer-promise-reject-errors": ["off"],
+    "react/jsx-filename-extension": ["off"],
+    "react/prop-types": 0,
+    "no-return-assign": ["off"],
+    "no-restricted-syntax": 0,
+    "prefer-destructuring": 0,
+    "anchor-is-invalid": 0
+  }
+}
